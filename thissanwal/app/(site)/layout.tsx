@@ -14,12 +14,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="max-w-5xl mx-auto py-20 " >
+      <body className="max-w-3xl mx-auto py-10">
         <header className="flex items-center justify-between">
-        <Link href="/" className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent text-lg font-bold">Sanwal</Link>
+          <Link href="/" className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent text-lg font-bold">Sanwal</Link>
+          
+
         </header>
         <main className="py-20">{children}</main>
-        </body>
+      </body>
     </html>
   );
 }
